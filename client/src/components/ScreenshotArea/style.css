@@ -1,0 +1,12 @@
+.canvas-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 800px;
+    overflow: auto;
+    border: 1px solid red;
+    position: relative;
+}
+
+canvas {
+    display: block;
+}

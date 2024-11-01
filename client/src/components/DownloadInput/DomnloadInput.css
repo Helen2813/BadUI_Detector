@@ -1,0 +1,24 @@
+.download-input {
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.file-name {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+}
